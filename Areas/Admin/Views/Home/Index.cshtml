@@ -1,0 +1,6 @@
+<h3>Admin Home Page</h2>
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">@TempData["Success"]</div>
+}
+<a href="/Admin/Users/Add">Add User</a>
