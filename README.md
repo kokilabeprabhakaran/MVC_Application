@@ -24,14 +24,16 @@ It is designed to provide a secure and scalable solution for managing books, use
 ## Architecture
 - **Repository-Service Pattern** for clean business logic separation.  
 - Organized with **Areas**: Admin and User.  
-- Support for **User Secrets** to protect sensitive information (e.g., connection strings, JWT keys).  
+- Support for **User Secrets** to protect sensitive information (e.g., connection strings, JWT keys).
+- Use of Partial Views for reusability of common UI components (e.g., returning successfull message).  
 
 ---
 
 ## Core Functionalities
 - **CRUD Operations** (Create, Read, Update, Delete) for library entities.  
 - Book management, issue/return handling, and user management.  
-- **TempData & ViewBag** used for message passing & feedback.  
+- **TempData & ViewBag** used for message passing & feedback.
+- **Partial Views** used to simplify UI management and reduce code duplication.
 
 ---
 
@@ -45,6 +47,7 @@ It is designed to provide a secure and scalable solution for managing books, use
 ## User Experience
 - Login form with **model binding and validation**.  
 - Error handling with **clear feedback messages**.  
+- Consistent layout with **Partial Views**.
 
 ---
 

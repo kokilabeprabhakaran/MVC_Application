@@ -37,8 +37,8 @@ namespace EducationalLibraryManagementSystem.Areas.Admin.Controllers
                 _context.Users.Add(user);
                 _context.SaveChanges();
 
-                TempData["Success"] = "User added successfully!";
-                return RedirectToAction("Index", "Home", new { area = "Admin" });
+                ViewBag.SuccessMessage = "User added successfully!";
+                return View("Add");
             }
             return View(user);
         }

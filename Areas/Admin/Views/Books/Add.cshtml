@@ -2,6 +2,8 @@
 
 <h2>Add Book</h2>
 
+@await Html.PartialAsync("_Alert", ViewBag.SuccessMessage as string)
+
 <form asp-action="Add" method="post">
     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 

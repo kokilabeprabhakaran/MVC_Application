@@ -1,5 +1,7 @@
 @model EducationalLibraryManagementSystem.Models.User
 
+@await Html.PartialAsync("_Alert", ViewBag.SuccessMessage as string)
+
 <style>
     .btn-adduser {
         background-color: #6a0dad;

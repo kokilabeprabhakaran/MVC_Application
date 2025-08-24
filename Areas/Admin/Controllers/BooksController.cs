@@ -30,8 +30,8 @@ namespace EducationalLibraryManagementSystem.Areas.Admin.Controllers
             if (ModelState.IsValid)
             {
                 await _bookService.AddBookAsync(book);
-                TempData["Success"] = "Book added successfully!";
-                return RedirectToAction("Index", "Home", new { area = "Admin" });
+                ViewBag.SuccessMessage = "Book added successfully!";
+                return View("Add");
             }
             return View(book);
         }
