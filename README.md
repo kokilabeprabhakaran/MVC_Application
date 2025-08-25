@@ -25,7 +25,8 @@ It is designed to provide a secure and scalable solution for managing books, use
 - **Repository-Service Pattern** for clean business logic separation.  
 - Organized with **Areas**: Admin and User.  
 - Support for **User Secrets** to protect sensitive information (e.g., connection strings, JWT keys).
-- Use of Partial Views for reusability of common UI components (e.g., returning successfull message).  
+- Use of Partial Views for reusability of common UI components (e.g., returning successfull message). 
+- **Attribute Routing.** 
 
 ---
 
@@ -53,6 +54,7 @@ It is designed to provide a secure and scalable solution for managing books, use
 
 ## Technologies Used
 - **ASP.NET Core MVC**  
+
 - **Entity Framework Core**  
 - **SQL Server**  
 - **JWT Authentication + Cookies**  
