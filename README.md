@@ -35,6 +35,7 @@ It is designed to provide a secure and scalable solution for managing books, use
 - Book management, issue/return handling, and user management.  
 - **TempData & ViewBag** used for message passing & feedback.
 - **Partial Views** used to simplify UI management and reduce code duplication.
+- **Strongly Typed Views.**
 
 ---
 
